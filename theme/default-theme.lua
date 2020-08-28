@@ -13,7 +13,7 @@ theme.font = 'Roboto medium 10'
 theme.primary = mat_colors.deep_orange
 
 -- Accent
-theme.accent = mat_colors.pink
+theme.accent = mat_colors.orange
 
 -- Background
 theme.background = mat_colors.grey
