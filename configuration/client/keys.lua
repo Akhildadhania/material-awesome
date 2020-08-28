@@ -13,6 +13,14 @@ local clientKeys =
       c:raise()
     end,
     {description = 'toggle fullscreen', group = 'client'}
+      ),
+  awful.key(
+    {altkey},
+    'F4',
+    function(c)
+      c:kill()
+    end,
+    {description = 'close', group = 'client'}
   ),
   awful.key(
     {modkey},
