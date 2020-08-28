@@ -387,6 +387,15 @@ local globalKeys =
       awful.util.spawn(apps.default.files)
     end,
     {description = 'filebrowser', group = 'hotkeys'}
+    ),
+  -- Telegram-Desktop
+  awful.key(
+    {modkey},
+    'v',
+    function()
+      awful.util.spawn(apps.default.social)
+    end,
+    {description = 'telegram', group = 'hotkeys'}
   ),
   -- Emoji Picker
   awful.key(
