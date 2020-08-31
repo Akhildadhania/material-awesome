@@ -11,14 +11,14 @@ theme.font = 'Roboto medium 10'
 
 -- Primary
 theme.primary = mat_colors.grey
-theme.primary.hue_500 = '#d03c3f'
+theme.primary.hue_500 = '#cf324e'
 -- Accent
 theme.accent = mat_colors.orange
 
 -- Background
 theme.background = mat_colors.blue_grey
 
-theme.background.hue_800 = '#2e2e2e'
+theme.background.hue_800 = '#202227'
 theme.background.hue_900 = '#1a1a1a'
 
 local awesome_overrides = function(theme)
